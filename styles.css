@@ -18,6 +18,7 @@ header {
 
 header .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 header nav ul {
@@ -52,79 +53,26 @@ header nav ul li a {
     margin: 0 0 40px;
 }
 
-.hero .cta-button {
-    background-color: #004c46;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.services {
+.portfolio {
     padding: 50px 20px;
     text-align: center;
 }
 
-.services h2 {
+.portfolio h2 {
     font-size: 32px;
     margin-bottom: 40px;
 }
 
-.service-item {
-    background-color: #d8e480;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.service-item h3 {
-    margin-top: 0;
-}
-
-.gallery {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.gallery h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-
-.gallery .instagram-feed {
-    background-color: #a0d7e6;
-    padding: 50px;
-    border-radius: 10px;
+.portfolio-item {
     margin-bottom: 20px;
 }
 
-.reviews {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.reviews h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-
-.review-item {
-    background-color: #d8e480;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.review-item p {
-    margin: 0;
-}
-
-.review-item span {
+.portfolio-item img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
     display: block;
-    margin-top: 10px;
-    color: #004c46;
-    font-weight: bold;
+    border-radius: 10px;
 }
 
 footer {
